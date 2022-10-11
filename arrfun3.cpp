@@ -4,7 +4,7 @@ int sum_arr(const int* begin, const int* end);
 int main()
 {
   using namespace std;
-  int cookies[ArSize]={1,2,4,8,16,32,64,128};
+  int cookies[ArSize] = {1,2,4,8,16,32,64,128};
   
   int sum = sum_arr(cookies, cookies + ArSize);
   cout << "Total cookies eaten: " << sum << " cookies.\n";
